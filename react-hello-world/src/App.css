@@ -1,0 +1,48 @@
+.hello-page {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  box-sizing: border-box;
+  text-align: center;
+  background: radial-gradient(circle at 50% 30%, #fff8e7 0, #f5efe5 45%, #e8e0d4 100%);
+}
+
+.hello-mark {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 76px;
+  margin-bottom: 28px;
+  border: 1px solid #2f4f4f;
+  border-radius: 18px;
+  color: #f5efe5;
+  background: #2f4f4f;
+  font: 600 24px/1 monospace;
+  box-shadow: 8px 8px 0 #e0a458;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #9a5f28;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  color: #243535;
+  font-size: clamp(44px, 8vw, 88px);
+  line-height: 0.95;
+}
+
+.intro {
+  max-width: 420px;
+  margin: 24px 0 0;
+  color: #65706a;
+  font-size: 18px;
+}

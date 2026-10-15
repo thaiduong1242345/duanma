@@ -1,0 +1,17 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #243535;
+  background: #e8e0d4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
